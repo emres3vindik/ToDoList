@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1C2738;
+}
+
+.plate {
+    background-color: whitesmoke;
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    vertical-align: auto;
+    justify-content: center;
+    align-items: top;
+    border-radius: 8px;
+}
+
+.input-add-job {
+    margin: auto;
+    width: 98%;
+    height: 45px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #bdbdbd;
+}
+
+#other-button {
+    font-size: 14px;
+    background-color: transparent;
+    color: #1C2738;
+    border: 0;
+    font-weight: 500;
+}
+
+.Temizle {
+    background-color: #1C2738;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.space {
+    height: 15px;
+}
+
+.plate-up {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.four-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.finished {
+    text-decoration: line-through;
+}
+
+.options-icon {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.popup-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.popup-menu .option {
+    cursor: pointer;
+    padding: 8px;
+    margin: 3px 0;
+    transition: background 0.3s ease;
+}
+
+.popup-menu .option:hover {
+    background: #f5f5f5;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options-icon {
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.checkbox-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.task-text {
+    margin-left: 8px;
+}
+
+.popup-menu {
+    width: 120px;
+    z-index: 99999999;
+}
+
+button {
+    border: 1px solid transparent;
+    outline: none;
+}
+
+#add-button {
+    background-color: #1C2738;
+    color: white;
+}
+
+.input-add-job:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}

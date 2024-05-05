@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo List</title>
+</head>
+
+<body>
+
+    <div class="plate">
+        <div class="plate-up">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">
+                        <i class="fas fa-sort"></i>
+                    </span>
+                </div>
+                <input type="text" class="form-control input-add-job" placeholder="Yapılacak İş Ekle">
+                <div class="input-group-append">
+                    <button id="add-button" class="btn btn-outline-secondary add-button" type="button">Ekle</button>
+                </div>
+            </div>
+            <div class="four-button" role="group">
+                <button id="other-button" type="button" class="btn btn-secondary all-button">Hepsi</button>
+                <button id="other-button" type="button" class="btn btn-secondary continue-button">Devam Eden</button>
+                <button id="other-button" type="button" class="btn btn-secondary finish-button">Biten</button>
+
+                <button type="button" class="Temizle">Temizle</button>
+            </div>
+            <hr>
+            <ul class="list-group task-list"></ul>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
